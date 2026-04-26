@@ -605,5 +605,41 @@ body {
     font-size: 24px;
   }
 }
+.footer-watermark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+  opacity: 0.25; /* watermark effect */
+}
+
+/* Logo */
+.footer-watermark img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Text */
+.footer-watermark span {
+  font-size: 20px;
+  font-weight: bold;
+  color: gold;
+  letter-spacing: 2px;
+}
+.footer-watermark span {
+  text-shadow: 0 0 8px rgba(255,215,0,0.4);
+}
+@media (max-width: 768px) {
+  .footer-watermark img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer-watermark span {
+    font-size: 14px;
+  }
+}
   
 
