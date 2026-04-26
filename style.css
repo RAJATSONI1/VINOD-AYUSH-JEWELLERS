@@ -709,14 +709,4 @@ body {
   }
 
 }
-  @media (max-width: 768px) {
-  body {
-    padding-top: 70px;
-  }
-}
-  .brand-container {
-  margin-left: 200px;
-  padding: 20px;
-}
- 
 
