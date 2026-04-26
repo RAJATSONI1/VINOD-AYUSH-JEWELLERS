@@ -641,34 +641,3 @@ body {
     font-size: 14px;
   }
 }
-.member img {
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-.member img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 10px gold;
-}
-.member img:active {
-  transform: scale(0.95);
-}
-section {
-  animation: fadeIn 1s ease;
-}
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; }
-}
-.member {
-  overflow: hidden;
-}
-.member h3 {
-  margin-top: 10px;
-}
-
-.member p {
-  margin-top: 5px;
-  font-size: 14px;
-}
