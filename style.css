@@ -658,3 +658,72 @@ body {
     0 0 8px white,
     0 0 10px gold;
 }
+.connect {
+  margin-left: 200px;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.connect h2 {
+  color: gold;
+  margin-bottom: 30px;
+}
+
+/* Button container */
+.connect-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Base button */
+.btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+/* Visit button */
+.visit {
+  background: gold;
+  color: black;
+}
+
+/* Call button */
+.call {
+  background: #8B0000;
+  color: white;
+}
+
+/* WhatsApp */
+.whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+/* Hover effects */
+.btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 12px gold;
+}
+@media (max-width: 768px) {
+
+  .connect {
+    margin-left: 0;
+  }
+
+  .connect-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .btn {
+    width: 80%;
+    margin: auto;
+  }
+
+}
