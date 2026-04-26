@@ -641,3 +641,15 @@ body {
     font-size: 14px;
   }
 }
+.member img {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.member img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px gold;
+}
+.member img:active {
+  transform: scale(0.95);
+}
