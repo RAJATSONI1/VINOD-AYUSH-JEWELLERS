@@ -233,3 +233,18 @@ body {
   text-decoration: none;
   box-shadow: 0 0 10px black;
 }
+.gold-rate, .reviews {
+  margin-left: 200px; /* matches your sidebar */
+  padding: 60px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Content box (for premium centered look) */
+.gold-rate p, .reviews p {
+  max-width: 600px;
+  margin: 10px auto;
+  font-size: 18px;
+}
