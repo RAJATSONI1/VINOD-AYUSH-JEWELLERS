@@ -709,3 +709,81 @@ body {
   }
 
 }
+  /* ===== DESKTOP LAYOUT RESTORE ===== */
+@media (min-width: 769px) {
+
+  /* BODY */
+  body {
+    padding-top: 0 !important;
+  }
+
+  /* ===== HEADER ===== */
+  .brand-container {
+    margin-left: 200px !important;
+    padding: 20px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    gap: 15px;
+  }
+
+  .logo {
+    width: 70px !important;
+    height: 70px !important;
+  }
+
+  .brand-text h1 {
+    font-size: 26px !important;
+  }
+
+  .brand-text p {
+    font-size: 15px !important;
+  }
+
+  /* ===== SHOWROOM ===== */
+  .showroom-section {
+    margin-left: 200px !important;
+    padding: 40px 20px !important;
+  }
+
+  .showroom-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 15px !important;
+  }
+
+  .showroom-grid img {
+    height: 220px !important;
+    object-fit: cover !important;
+  }
+
+  /* ===== LEGACY ===== */
+  .legacy {
+    margin-left: 200px !important;
+    padding: 50px 20px !important;
+  }
+
+  .legacy-content {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 30px !important;
+    justify-content: center !important;
+  }
+
+  .legacy-box {
+    max-width: 450px !important;
+  }
+
+  /* ===== CONNECT ===== */
+  .connect {
+    margin-left: 200px !important;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    margin-left: 200px !important;
+    padding: 20px !important;
+    text-align: center !important;
+  }
+
+}
