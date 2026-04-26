@@ -158,25 +158,25 @@
 
   <div class="team-grid">
 
-    <div class="member">
-      <img src="ramesh.jpeg" alt="Ramesh Soni">
-      <p>SH. RAMESH SONI<br>(CONTACT - 9416243644)</p>
-    </div>
+   <div class="member">
+  <img src="ramesh.jpeg" onclick="speakName('Ramesh Soni')" alt="">
+  <h3>SH. RAMESH SONI</h3>
+</div>
 
-    <div class="member">
-      <img src="roshan.jpeg" alt="Roshan Lal Soni">
-      <p>SH. ROSHAN LAL SONI<br>(CONTACT - 9416489208)</p>
-    </div>
+<div class="member">
+  <img src="roshan.jpeg" onclick="speakName('Roshan Lal Soni')" alt="">
+  <h3>SH. ROSHAN LAL SONI</h3>
+</div>
 
-    <div class="member">
-      <img src="vinod.jpeg" alt="Vinod Soni">
-      <p>VINOD SONI<br>(CONTACT - 9416186228)</p>
-    </div>
+<div class="member">
+  <img src="vinod.jpeg" onclick="speakName('Vinod Soni')" alt="">
+  <h3>VINOD SONI</h3>
+</div>
 
-    <div class="member">
-      <img src="dinesh.jpeg" alt="Dinesh Soni">
-      <p>DINESH SONI<br>(CONTACT - 9700781111)</p>
-    </div>
+<div class="member">
+  <img src="dinesh.jpeg" onclick="speakName('Dinesh Soni')" alt="">
+  <h3>DINESH SONI</h3>
+</div>
 
   </div>
 </section>
@@ -223,6 +223,16 @@ function playWelcome() {
 }
 
 document.addEventListener("click", playWelcome);
+</script>
+  <script>
+function speakName(name) {
+  const msg = new SpeechSynthesisUtterance(name);
+  msg.lang = "en-IN";  // better pronunciation for names
+  msg.rate = 0.9;
+
+  window.speechSynthesis.cancel(); // stop previous speech
+  window.speechSynthesis.speak(msg);
+}
 </script>
 </body>
 </html>
