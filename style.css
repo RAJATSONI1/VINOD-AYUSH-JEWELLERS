@@ -336,4 +336,46 @@ body {
     text-shadow: 0 0 20px gold;
   }
 }
+.gold-significance {
+  margin-left: 200px;
+  padding: 60px 30px;
+  background: linear-gradient(180deg, #1a0000, #330000);
+  color: #f5e6c8;
+  text-align: center;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+}
+
+.gold-significance h2 {
+  color: gold;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255,215,0,0.5);
+}
+
+.gold-significance p {
+  max-width: 800px;
+  margin: 15px auto;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.hindi-text {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  color: #e6d3a3;
+}
+@media (max-width: 768px) {
+  .gold-significance {
+    margin-left: 0;
+    padding: 40px 15px;
+  }
+
+  .gold-significance h2 {
+    font-size: 24px;
+  }
+
+  .gold-significance p {
+    font-size: 14px;
+  }
+}
 
