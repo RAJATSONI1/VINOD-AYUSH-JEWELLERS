@@ -458,84 +458,9 @@ img {
   object-fit: contain;
 }
 
-/* Text styling */
-.brand-text h1 {
-  color: gold;
-  font-size: 28px;
-  margin: 0;
-}
 
-.brand-text p {
-  color: #d4af37;
-  font-size: 16px;
-  margin: 0;
-}@media (max-width: 768px) {
- .logo {
-  width: 140px;
-  height: 140px;
-}
-  .brand-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-  .logo:hover {
-  transform: scale(1.05);
-  transition: 0.3s ease;
-}
-  @media (max-width: 768px) {
-  .logo {
-    width: 80px;
-    height: 80px;
-  }
-}
-  .brand-container {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  margin-left: 200px;
-  padding: 20px;
-}
 
-/* Logo */
-.logo {
-  width: 70px;
-  height: 70px;
-  object-fit: contain;
-  filter: drop-shadow(0 0 6px gold);
-}
 
-/* Text */
-.brand-text h1 {
-  color: gold;
-  font-size: 26px;
-  margin: 0;
-}
-
-.brand-text p {
-  color: #d4af37;
-  font-size: 16px;
-  margin: 0;
-}
-  @media (max-width: 768px) {
-  .brand-container {
-    margin-left: 0;
-    justify-content: center;
-  }
-
-  .logo {
-    width: 55px;
-    height: 55px;
-  }
-
-  .brand-text h1 {
-    font-size: 20px;
-  }
-
-  .brand-text p {
-    font-size: 14px;
-  }
-}
   /* RESET (important) */
 * {
   margin: 0;
