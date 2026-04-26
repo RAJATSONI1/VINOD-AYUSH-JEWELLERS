@@ -256,4 +256,30 @@ body {
     padding: 8px;
   }
 }
+.rate-note {
+  margin-left: 200px;
+  background: rgba(255, 215, 0, 0.1);
+  border-left: 4px solid gold;
+  border-right: 4px solid gold;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #f5e6c8;
+}
+
+.rate-note p {
+  margin: 5px 0;
+}
+
+.hindi-note {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+  color: #e6d3a3;
+}
+@media (max-width: 768px) {
+  .rate-note {
+    margin-left: 0;
+    padding: 12px;
+    font-size: 12px;
+  }
+}
 
