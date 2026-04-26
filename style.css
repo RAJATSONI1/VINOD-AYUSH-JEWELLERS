@@ -489,5 +489,52 @@ img {
     height: 80px;
   }
 }
+  .brand-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 200px;
+  padding: 20px;
+}
+
+/* Logo */
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px gold);
+}
+
+/* Text */
+.brand-text h1 {
+  color: gold;
+  font-size: 26px;
+  margin: 0;
+}
+
+.brand-text p {
+  color: #d4af37;
+  font-size: 16px;
+  margin: 0;
+}
+  @media (max-width: 768px) {
+  .brand-container {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 55px;
+    height: 55px;
+  }
+
+  .brand-text h1 {
+    font-size: 20px;
+  }
+
+  .brand-text p {
+    font-size: 14px;
+  }
+}
   
 
