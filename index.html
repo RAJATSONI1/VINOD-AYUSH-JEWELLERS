@@ -17,22 +17,7 @@
 </div>
 
 <!-- Sidebar -->
-<!-- HAMBURGER BUTTON -->
-<div class="menu-btn" onclick="toggleMenu()">
-  ☰
-</div>
 
-<!-- SIDEBAR -->
-<div id="sidebar" class="sidebar">
-  <a href="#">Home</a>
-  <a href="#">Collection</a>
-  <a href="#">Our Legacy</a>
-  <a href="#">Team</a>
-  <a href="#">Contact</a>
-</div>
-
-<!-- OVERLAY (dark background when open) -->
-<div id="overlay" onclick="toggleMenu()"></div>
 
 <!-- BRAND HEADER -->
 <div class="brand-container">
@@ -251,20 +236,7 @@ function speakName(name) {
   window.speechSynthesis.cancel(); // stop previous speech
   window.speechSynthesis.speak(msg);
 }
-    <script>
-function toggleMenu() {
-  const sidebar = document.getElementById("sidebar");
-  const overlay = document.getElementById("overlay");
-
-  if (sidebar.style.left === "0px") {
-    sidebar.style.left = "-250px";
-    overlay.style.display = "none";
-  } else {
-    sidebar.style.left = "0px";
-    overlay.style.display = "block";
-  }
-}
-</script>
+  
 </script>
 </body>
 </html>
