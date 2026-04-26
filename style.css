@@ -282,4 +282,58 @@ body {
     font-size: 12px;
   }
 }
+/* Footer Section */
+.footer {
+  margin-left: 200px;
+  text-align: center;
+  padding: 40px 20px;
+  background: #1a0000;
+  border-top: 2px solid gold;
+}
+
+/* Watermark */
+.watermark {
+  font-size: 28px;
+  font-weight: bold;
+  color: gold;
+  opacity: 0.6;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 10px rgba(255,215,0,0.5);
+}
+
+/* Legal text */
+.legal p {
+  font-size: 13px;
+  color: #cfcfcf;
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .footer {
+    margin-left: 0;
+    padding: 30px 15px;
+  }
+
+  .watermark {
+    font-size: 20px;
+  }
+
+  .legal p {
+    font-size: 12px;
+  }
+}
+.watermark {
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px gold;
+  }
+  to {
+    text-shadow: 0 0 20px gold;
+  }
+}
 
