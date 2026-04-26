@@ -715,4 +715,44 @@ body {
   object-fit: contain !important;
   display: block;
 }
+  /* ===== FORCE DESKTOP RESET ===== */
+@media (min-width: 769px) {
+
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+  }
+
+  /* Reset ALL top spacing issues */
+  body {
+    padding-top: 0 !important;
+  }
+
+  /* Kill any fixed positioning */
+
+
+  /* Restore header properly */
+  .brand-container {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    margin-left: 200px !important;
+    padding: 20px !important;
+    gap: 15px !important;
+  }
+
+  /* Fix logo */
+  .logo {
+    width: 70px !important;
+    height: 70px !important;
+    object-fit: contain !important;
+  }
+
+  /* Fix text */
+  .brand-text {
+    text-align: left !important;
+  }
+
+}
 
