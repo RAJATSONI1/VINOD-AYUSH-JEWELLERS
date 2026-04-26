@@ -29,31 +29,7 @@ body {
   color: black;
 }
 
-/* Hero */
-.hero {
-  margin-left: 200px;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-/* Brand Glow */
-.brand {
-  font-size: 45px;
-  text-align: center;
-  color: gold;
-  transition: 0.4s;
-}
-
-.brand:hover {
-  text-shadow: 0 0 10px gold, 0 0 20px gold, 0 0 40px gold;
-  transform: scale(1.1);
-}
-
-.hindi {
-  font-size: 28px;
-}
 
 /* Sections */
 .about, .gallery, .team, .contact {
