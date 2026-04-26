@@ -16,7 +16,22 @@
   <h1>आपका स्वागत है</h1>
 </div>
 
-<!-- Sidebar -->
+<!-- HAMBURGER BUTTON -->
+<div class="menu-btn" onclick="toggleMenu()">
+  ☰
+</div>
+
+<!-- SIDEBAR -->
+<div id="sidebar" class="sidebar">
+  <a href="#">Home</a>
+  <a href="#">Collection</a>
+  <a href="#">Our Legacy</a>
+  <a href="#">Team</a>
+  <a href="#">Contact</a>
+</div>
+
+<!-- OVERLAY (dark background when open) -->
+<div id="overlay" onclick="toggleMenu()"></div>
 
 
 <!-- BRAND HEADER -->
@@ -237,6 +252,20 @@ function speakName(name) {
   window.speechSynthesis.speak(msg);
 }
   
+</script>
+  <script>
+function toggleMenu() {
+  const sidebar = document.getElementById("sidebar");
+  const overlay = document.getElementById("overlay");
+
+  if (sidebar.classList.contains("open")) {
+    sidebar.classList.remove("open");
+    overlay.classList.remove("active");
+  } else {
+    sidebar.classList.add("open");
+    overlay.classList.add("active");
+  }
+}
 </script>
 </body>
 </html>
