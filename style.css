@@ -653,3 +653,11 @@ body {
 .member img:active {
   transform: scale(0.95);
 }
+section {
+  animation: fadeIn 1s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; }
+}
