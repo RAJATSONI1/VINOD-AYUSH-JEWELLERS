@@ -445,4 +445,42 @@ img {
   display: block;
   border-radius: 10px;
 }
+.brand-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Logo size */
+.logo {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* Text styling */
+.brand-text h1 {
+  color: gold;
+  font-size: 28px;
+  margin: 0;
+}
+
+.brand-text p {
+  color: #d4af37;
+  font-size: 16px;
+  margin: 0;
+}@media (max-width: 768px) {
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .brand-text h1 {
+    font-size: 20px;
+  }
+
+  .footer-logo img {
+    width: 90px;
+  }
+}
 
