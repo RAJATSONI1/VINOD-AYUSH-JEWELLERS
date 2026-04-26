@@ -709,40 +709,10 @@ body {
   }
 
 }
-  /* ===== DESKTOP OVERRIDE FIX ===== */
-@media (min-width: 769px) {
-
-  body {
-    padding-top: 0 !important;
-    margin: 0 !important;
-  }
-
-  .brand-container {
-    margin-left: 200px !important;
-    margin-top: 0 !important;
-    padding: 20px !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-  }
+  
 
   .logo {
-    width: 70px !important;
-    height: 70px !important;
-  }
-
-  /* Fix any weird centering from mobile */
-  .brand-text {
-    text-align: left !important;
-  }
-
-  /* Prevent weird stacking */
-  .brand-container,
-  .showroom-section,
-  .legacy,
-  .connect {
-    max-width: 100% !important;
-  }
-
+  object-fit: contain !important;
+  display: block;
 }
 
