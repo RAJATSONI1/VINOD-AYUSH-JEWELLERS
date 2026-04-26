@@ -208,5 +208,21 @@
   </div>
 
 </footer>
+  <script>
+let hasPlayed = false;
+
+function playWelcome() {
+  if (hasPlayed) return;
+
+  const msg = new SpeechSynthesisUtterance("आपका स्वागत है");
+  msg.lang = "hi-IN";
+  msg.rate = 0.9;
+
+  speechSynthesis.speak(msg);
+  hasPlayed = true;
+}
+
+document.addEventListener("click", playWelcome);
+</script>
 </body>
 </html>
